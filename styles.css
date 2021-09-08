@@ -1,0 +1,158 @@
+body {
+    margin: 0;
+    text-align: center;
+    font-family: 'Merriweather', serif;
+    color: #40514E;
+  
+  }
+  
+  p{
+    font-size: 1.25rem;
+    line-height: 2;
+  
+  }
+  
+  h1 {
+    margin: 50px auto 2.5rem auto;
+    font-family: 'Sacramento', cursive;
+    font-size: 4.6875rem;
+    color: #2c786c;
+  
+  }
+  
+  h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.5rem;
+    color: #2c786c;
+    font-weight: normal;
+    padding-bottom: 10px;
+  }
+  
+  h3 {
+    font-family: 'Montserrat', sans-serif;
+    color: #11999E;
+  
+  }
+
+  .profile-img {
+    border-radius: 50%;
+  }
+  
+  .top-container {
+    background-color: #e4f9ff;
+    position: relative;
+    padding-top: 100px;
+  }
+  
+  .bottom-cloud {
+    position: absolute;
+    bottom: 300px;
+    left: 250px;
+  }
+  
+  .top-cloud {
+    position: absolute;
+    right: 370px;
+    top: 40px;
+  }
+
+  hr{
+    border-style: none;
+    border-top-style: dotted;
+    border-color: #0FE500;
+    border-width: 5px;
+    width: 3%;
+    margin:100 px auto;
+  }
+
+  .mountain{
+    margin-bottom: 0px;
+  }
+
+  .skill-row{
+    width:50%;
+    margin: 100px auto 100px auto;
+    text-align: left;
+  }
+
+  .skill-1{
+      width:25%;
+      float:left;
+      margin-right: 80px;
+  }
+
+  .skill-2{
+    width:25%;
+    float:right;
+    margin-left: 80px;
+}
+
+.skill-3{
+    width:25%;
+    float:left;
+    margin-right: 80px;
+}
+
+.button {
+  display: inline-block;
+  border-radius: 4px;
+  background-color: #f4511e;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 16px;
+  padding: 20px;
+  width: 200px;
+  transition: all 0.4s;
+  cursor: pointer;
+  margin: 5px;
+}
+
+.button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.4s;
+}
+
+.button span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.4s;
+}
+
+.button:hover span {
+  padding-right: 25px;
+}
+
+.button:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+a{
+  font-family: 'Montserrat', sans-serif;
+  color: #11999E;
+  margin: 10px 15px;
+  text-decoration:none;
+}
+a:hover{
+  color: #EAF6F6;
+}
+hr{
+  border-style:none;
+  border-top-style: dotted;
+  border-color: #0FE500;
+  border-width: 5px;
+  width: 3%;
+  margin:100 px auto;
+}
+
+.bottom-container{
+  background-color: #66BFBF;
+  margin: 0;
+  padding: 50px 0 20px;
+}
